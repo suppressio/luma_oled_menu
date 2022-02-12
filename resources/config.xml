@@ -1,0 +1,82 @@
+<settings>
+  <display>
+  </display>
+  <menu>
+    <menuGroup lvl="0" style="graphic">
+      <menuElement id="1">
+        <icon style="fa-font">f017</icon>
+        <description>Orologio</description>
+        <command><py exec="clock.py"/></command>
+      </menuElement>
+
+      <menuElement id="2">
+        <icon style="fa-font">f52f</icon>
+        <description>Consumo</description>
+        <command></command>
+        <disabled/>
+      </menuElement>
+
+      <menuElement id="3">
+        <icon style="fa-font">f279</icon>
+        <description>Navigatore</description>
+        <command></command>
+        <disabled/>
+      </menuElement>
+
+      <menuElement id="4">
+        <icon style="fa-font">f2f2</icon>
+        <description>Cronometro</description>
+        <command><py /></command>
+        <disabled/>
+      </menuElement>
+
+      <menuElement id="5">
+        <icon style="fa-font">f11e</icon>
+        <description>Trip Timer</description>
+        <command><menu_lk /></command>
+        <disabled/>
+      </menuElement>
+
+      <menuElement id="9">
+        <icon style="fa-font">f001</icon>
+        <description>Musica</description>
+        <command><menu_lk /></command>
+        <disabled/>
+      </menuElement>
+
+      <menuElement id="10">
+        <icon style="fa-font">f11b</icon>
+        <description>Giochi</description>
+        <command><py /></command>
+        <disabled/>
+      </menuElement>
+
+      <menuElement id="16">
+        <icon style="fa-font">f0ad</icon>
+        <description>Impostazioni</description>
+        <command><menu_lk lvl="1"/></command>
+      </menuElement>
+    </menuGroup>
+
+    <menuGroup lvl="1" style="text" name="settings">
+      <menuElement id="1">
+        <icon></icon>
+        <name>Orologio</name>
+        <description></description>
+        <command></command>
+      </menuElement>
+      <menuElement id="2">
+        <icon></icon>
+        <name>Bluetooth</name>
+        <description></description>
+        <command><py exec=""/></command>
+      </menuElement>
+      <menuElement id="3">
+        <icon></icon>
+        <name>Wifi</name>
+        <description></description>
+        <command><py exec=""/></command>
+      </menuElement>
+    </menuGroup>
+  </menu>
+</settings>
